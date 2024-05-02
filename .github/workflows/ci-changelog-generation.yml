@@ -1,5 +1,6 @@
-name: Create Release and Push CI
+name: CHANGELOG Generator
 
+# só executa no push de commit da branch main
 on:
   push:
     branches:
