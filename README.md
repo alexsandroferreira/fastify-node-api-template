@@ -1,4 +1,9 @@
 #  fastify-node-api-template 
+![](https://github.com/alexsandroferreira/fastify-node-api-template/workflows/CHANGELOG%20Generator/badge.svg)
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/alexsandroferreira/fastify-node-api-template/CHANGELOG%20Generator)
+
+
 Este é um projeto base para criar aplicativos Node.js utilizando Fastify e TypeScript. Ele serve como um template que oferece as seguintes características:
 - Integração contínua para automatização do changelog.
 - Lint seguindo o guia de estilo da rocketseat/node.
