@@ -6,6 +6,7 @@ Este é um projeto base para criar aplicativos Node.js utilizando Fastify e Type
     - Script de lint para correção de erros.
     - Script de verificação de commits usando o formato convencional.
 - Plugin de lint para organização dos imports.
+- Extensão rest clint para testes locais de api
 
 ## Tabela de Conteúdos
 
@@ -32,6 +33,7 @@ Este projeto foi construído com as seguintes tecnologias:
 - [husky »](https://typicode.github.io/husky/)
 - [Commitlint »](https://commitlint.js.org/)
 - [release-it »](https://github.com/release-it/release-it)
+- [ extensão vs code rest client »](https://github.com/Huachao/vscode-restclient)
 
 ## Instalação e configuração
 
