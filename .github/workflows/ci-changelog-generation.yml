@@ -1,11 +1,9 @@
 name: Create Release and Push CI
 
 on:
-  pull_request:
+  push:
     branches:
       - main
-    types:
-      - synchronize
 
 jobs:
   create_release:
