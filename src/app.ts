@@ -19,6 +19,7 @@ app.setValidatorCompiler(validatorCompiler)
 app.register(fastifyCors, {
   origin: '*',
 })
+
 app.register(fastifySwagger, {
   swagger: {
     consumes: ['application/json'],
@@ -31,6 +32,7 @@ app.register(fastifySwagger, {
   },
   transform: jsonSchemaTransform,
 })
+
 app.register(fastifySwaggerUI, {
   routePrefix: '/docs',
 })
