@@ -1,4 +1,9 @@
 #  fastify-node-api-template 
+![](https://github.com/alexsandroferreira/fastify-node-api-template/workflows/CHANGELOG%20Generator/badge.svg)
+
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/alexsandroferreira/fastify-node-api-template/CHANGELOG%20Generator)
+
+
 Este é um projeto base para criar aplicativos Node.js utilizando Fastify e TypeScript. Ele serve como um template que oferece as seguintes características:
 - Integração contínua para automatização do changelog.
 - Lint seguindo o guia de estilo da rocketseat/node.
@@ -33,15 +38,15 @@ Este projeto foi construído com as seguintes tecnologias:
 - [husky »](https://typicode.github.io/husky/)
 - [Commitlint »](https://commitlint.js.org/)
 - [release-it »](https://github.com/release-it/release-it)
-- [ extensão vs code rest client »](https://github.com/Huachao/vscode-restclient)
+- [extensão vs code rest client »](https://github.com/Huachao/vscode-restclient)
 
 ## Instalação e configuração
 
 ### Requisitos
 
-Escreva aqui os requisitos para rodar o projeto, ex:
-
 - [Node.js »](https://nodejs.org/en/download) na sua versão LTS
+- Adicionar extensão [rest client »](https://github.com/Huachao/vscode-restclient), para realizar os testes de api dentro do projeto.
+- Para permitir que o changelog rode automaticamente, verifique as configurações do repositório na aba Settings -> Actions -> General Workflow Permissions e marque a opção de permissões de leitura e escrita (Read and Write Permissions).
 
 ### Instalação
 
